@@ -1,5 +1,7 @@
 class CandiesController < ApplicationController
 
+    before_action :find_candy, only: [:destroy, :update]
+
     def index
         @candies = Candy.all 
         render json: @candies
