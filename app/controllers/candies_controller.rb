@@ -1,5 +1,6 @@
 class CandiesController < ApplicationController
 
+    # test whether to run this
     before_action :find_candy, only: [:destroy, :update]
 
     def index
