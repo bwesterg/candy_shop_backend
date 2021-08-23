@@ -4,25 +4,25 @@ Candy.create([
     {
         name: "Skittles",
         origin: "United States",
-        image: "https://toppng.com/uploads/preview/skittles-png-11552942500yrfnlonfye.png",
+        image: "http://pngimg.com/uploads/skittles/skittles_PNG98752.png",
         price: "1.25"
     },
     {
         name: "Snickers",
         origin: "United States",
-        image: "https://toppng.com/uploads/preview/snickers-png-11552942934fzcniccrc3.png",
+        image: "https://static.wixstatic.com/media/2cd43b_bb9f07f60d434cb39e5bcb1312e982f5~mv2.png/v1/fill/w_320,h_256,q_90/2cd43b_bb9f07f60d434cb39e5bcb1312e982f5~mv2.png",
         price: "1.19"
     },
     {
-        name: "Maltasers",
+        name: "Maltesers",
         origin: "United Kingdom",
-        image: "https://banner2.cleanpng.com/20180703/qjr/kisspng-maltesers-twix-candy-chocolate-bounty-cineplex-odeon-corporation-5b3b09d47fb5a6.2131967715305957965231.jpg",
+        image: "http://assets.stickpng.com/images/58d2a69edc164e9dd9e668f0.png",
         price: "1.67"
     },
     {
         name: "Ovomaltine",
         origin: "Switzerland",
-        image: "https://e7.pngegg.com/pngimages/1020/790/png-clipart-ovaltine-cream-chocolate-bar-hot-chocolate-swiss-cuisine-ovomaltine-cream-food-thumbnail.png",
+        image: "https://i.ebayimg.com/images/g/28EAAOSwMMBfkBMs/s-l300.png",
         price: "3.00"
     },
 ])
