@@ -17,22 +17,11 @@ class CandiesController < ApplicationController
         render json: @candy, status: :created
     end
 
-    # def update 
-    #     @candy.update(candy_params)
-    #     render json: @candy
-    # end
-
-    # def destroy
-    #     @candy.destroy
-    #     render status: :no_content
-    # end
 
 
     private
 
-    # def find_candy
-    #     @candy = Candy.find(params[:id])
-    # end
+ 
 
     def candy_params
         params.require(:candy).permit(:name, :origin, :image, :price)
